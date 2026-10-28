@@ -1,0 +1,5 @@
+docling>=2.0,<3.0
+langchain-core>=1.0.0,<2.0
+langchain-ollama>=1.0.0,<2.0
+psycopg[binary]>=3.2,<4.0
+python-dotenv>=1.0,<2.0

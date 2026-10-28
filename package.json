@@ -1,0 +1,13 @@
+{
+  "name": "ai-knowledge-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cmd": "node scripts/cmd.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "dev:api": "npm --prefix apps/api run start:dev",
+    "dev:web": "npm --prefix apps/web run dev"
+  }
+}
